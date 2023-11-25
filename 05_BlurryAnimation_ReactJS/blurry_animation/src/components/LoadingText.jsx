@@ -1,8 +1,8 @@
 import React from 'react'
 
-const LoadingText = () => {
+const LoadingText = ({ load }) => {
   return (
-    <div className="loading-text">0%</div>
+    <div className="loading-text">{load}%</div>
   )
 }
 
